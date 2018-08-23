@@ -10,8 +10,8 @@ public class ArrayCopy {
             ar[i] = scr.nextInt();
         }
         int ar1[], ar2[];
-        ar1 = Arrays.copyOfRange(ar,0,2);
-        ar2 = Arrays.copyOfRange(ar,2,4);
+        ar1 = Arrays.copyOfRange(ar, 0,ar.length /2);
+        ar2 = Arrays.copyOfRange(ar, ar.length /2, ar.length);
 
         String ar1s = Arrays.toString(ar1);
         String ar2s = Arrays.toString(ar2);
